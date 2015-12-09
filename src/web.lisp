@@ -26,6 +26,9 @@
 (defroute "/" ()
   (render #P"index.html"))
 
+@route GET "/welcome"
+(lambda (&key (|name| "Gues"))
+  (format nil "Welcome, ~A" |name|))
 ;;
 ;; Error pages
 

@@ -1,3 +1,5 @@
+(load "~/caveman-demo/caveman-demo.asd")
+
 (ql:quickload :caveman-demo)
 
 (defpackage caveman-demo.app
