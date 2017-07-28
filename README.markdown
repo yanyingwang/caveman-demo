@@ -4,11 +4,7 @@
 
 ## Usage
 
-    $ sudo apt-get install python-woo
-
-    $ sudo apt-get install libfcgi-dev
-
-    $ APP_ENV=development clackup --server :fcgi --port 8080 app.lisp
+    $ (ql:quickload :woo)
 
     $ APP_ENV=development clackup --server :woo --port 8000 app.lisp
 
